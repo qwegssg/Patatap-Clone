@@ -11,10 +11,19 @@
 
     <script type="text/javascript" src="paper-full.min.js"></script>
     <script type="text/paperscript" canvas="myCanvas">
-        for (var x = 0; x < 1000; x += 100) {
-            for (var y = 0; y < 1000; y += 100) {
-                new Path.Circle(new Point(x, y), 10).fillColor = 'yellow';   
-            }
+//        for (var x = 0; x < 1000; x += 100) {
+//            for (var y = 0; y < 1000; y += 100) {
+//                new Path.Circle(new Point(x, y), 10).fillColor = 'yellow';   
+//            }
+//        }
+
+        function onKeyDown(event) {
+            var maxPoint = new Point(view.size.width, view.size.height);
+            //randomPoint: (0.0 ~ 1.0, 0.0 ~ 1.0)
+            var randomPoint = Point.random();
+            var point = maxPoint * randomPoint;
+
+            new Path.Circle(point, 10).fillColor = 'yellow';   
         }
     </script>
 </body>
