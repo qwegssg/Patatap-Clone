@@ -3,7 +3,7 @@
 This project is a clone version of Patatap with colorful animations and attractive sound.  
 (Patatap is a portable animation and sound kit. With the touch of a finger create melodies charged with moving shapes.)  
   
-![Something wrong with the image](https://github.com/qwegssg/Patatap-Clone/view.png)
+![Something wrong with the image](https://github.com/qwegssg/Patatap-Clone/blob/master/view.png)
   
 ### Library Introduction  
 1. Paper.js:  
