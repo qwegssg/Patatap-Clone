@@ -13,4 +13,4 @@ howler.js is an audio library for the modern web. It defaults to Web Audio API a
 
 
 
-## Then, let's create our own beautiful music simply by tapping the 26 keys over the keyboard!
+## Then, let's create our own beautiful music simply by tapping our keyboard!
